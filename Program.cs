@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyFirstProject{
+    internal class Program{
+        static void Main(string[] args){
+
+            // Demo
+
+            //Console.WriteLine("Hello World!");
+            //Console.ReadKey();// read the pressed key
+
+            // Read String
+
+            //Console.Write("Enter Your Name: ");
+            //String name = Console.ReadLine();
+            //Console.WriteLine("Hello " + name + "!");
+
+            // Read Numbers
+
+            //Console.WriteLine("Eneter two Numbers:");
+            //int number1 = Convert.ToInt32(Console.ReadLine());
+            //int number2 = Convert.ToInt32(Console.ReadLine());
+
+            //int res = number1 + number2;
+            //Console.WriteLine(res);
+
+            //ASCII
+
+            //Console.WriteLine("Enter a Key");
+            //int key1 = Console.Read();
+            //int key2 = Console.Read();
+            //Console.WriteLine(key1 + " " + key2);
+
+            //Console Class Properties
+
+            //Console.BackgroundColor = ConsoleColor.Red;
+            //Console.ForegroundColor = ConsoleColor.Black;
+            //Console.Title = "Understanding Console Class";
+            //Console.WriteLine("BackgroundColor: Red");
+            //Console.WriteLine("ForegroundColor: Black");
+            //Console.WriteLine("Title: Understanding Console Class");
+
+            //DataType
+            //DataType.dataType();
+
+            //casting
+            TypeCasting.casting();
+
+            
+        }
+    }
+}
