@@ -48,9 +48,24 @@ namespace MyFirstProject{
             //DataType.dataType();
 
             //casting
-            TypeCasting.casting();
+            //TypeCasting.casting();
 
-            
+            //poly
+            //Poly p = new Poly("Sarthak",22);
+            //Console.WriteLine(p.getDetails());
+            //Console.WriteLine(p.getName());
+            //Console.WriteLine(p.getAge());
+
+            //destructor
+
+            Destructor obj1 = new Destructor();
+            Destructor obj2 = new Destructor();
+            obj1 = null;
+
+            GC.Collect();
+
+            Console.WriteLine(obj2.num());
+
         }
     }
 }
