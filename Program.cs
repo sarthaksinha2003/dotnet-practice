@@ -58,13 +58,27 @@ namespace MyFirstProject{
 
             //destructor
 
-            Destructor obj1 = new Destructor();
-            Destructor obj2 = new Destructor();
-            obj1 = null;
+            //Destructor obj1 = new Destructor();
+            //Destructor obj2 = new Destructor();
+            //obj1 = null;
+            //GC.Collect();
+            //Console.WriteLine(obj2.num());
 
-            GC.Collect();
+            //Encapsulation
 
-            Console.WriteLine(obj2.num());
+            try
+            {
+                Encapsulation bank = new Encapsulation();
+                bank.setBalance(1);
+                bank.addBalance(100);
+                Console.WriteLine("Available Balance: " + bank.getBalance());
+                bank.addBalance(-100);
+                Console.WriteLine("Available Balance: " + bank.getBalance());
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
         }
     }

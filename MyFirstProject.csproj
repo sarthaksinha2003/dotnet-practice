@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DataType.cs" />
     <Compile Include="Destructor.cs" />
+    <Compile Include="Encapsulation.cs" />
     <Compile Include="Poly.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
