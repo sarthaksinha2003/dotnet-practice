@@ -66,19 +66,38 @@ namespace MyFirstProject{
 
             //Encapsulation
 
-            try
-            {
-                Encapsulation bank = new Encapsulation();
-                bank.setBalance(1);
-                bank.addBalance(100);
-                Console.WriteLine("Available Balance: " + bank.getBalance());
-                bank.addBalance(-100);
-                Console.WriteLine("Available Balance: " + bank.getBalance());
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            //try
+            //{
+            //    Encapsulation bank = new Encapsulation();
+            //    bank.setBalance(1);
+            //    bank.addBalance(100);
+            //    Console.WriteLine("Available Balance: " + bank.getBalance());
+            //    bank.addBalance(-100);
+            //    Console.WriteLine("Available Balance: " + bank.getBalance());
+            //}
+            //catch(Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            //Abstraction
+
+            //Abstraction abs = new Abstraction();
+            //abs.Transaction();
+
+            //Inheritance
+
+            //child inheri = new child();
+            //inheri.meth(inheri);
+
+            //ISA and HASA
+
+            //Cuboid obj = new Cuboid(10,20,30);
+            //int ans = obj.volume();
+            //Console.WriteLine("Volume is: " + ans);
+
+            HASA obj = new HASA();
+            obj.meth();
 
         }
     }
