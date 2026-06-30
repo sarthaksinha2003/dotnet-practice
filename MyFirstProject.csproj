@@ -50,9 +50,13 @@
     <Compile Include="HASA.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="ISA.cs" />
+    <Compile Include="Operator_Overloading.cs" />
+    <Compile Include="PartialEmployeeOne.cs" />
+    <Compile Include="PartialEmployeeTwo.cs" />
     <Compile Include="Poly.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shape.cs" />
     <Compile Include="TypeCasting.cs" />
   </ItemGroup>
   <ItemGroup>

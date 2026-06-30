@@ -95,10 +95,38 @@ namespace MyFirstProject{
             //Cuboid obj = new Cuboid(10,20,30);
             //int ans = obj.volume();
             //Console.WriteLine("Volume is: " + ans);
+            //HASA obj = new HASA();
+            //obj.meth();
 
-            HASA obj = new HASA();
-            obj.meth();
+            //Operator Overloading
 
+            //Operator_Overloading obj = new Operator_Overloading();
+            //obj.meth();
+
+            //Partial Class
+
+            //PartialEmployee emp = new PartialEmployee("Sarthak","Sinha",100000000,"Male");
+            //emp.DisplayFullName();
+            //emp.DisplayEmployeeDetails();
+
+            //struct 
+
+            Point p1 = new Point();
+
+            p1.X = 10;
+            p1.Y = 20;
+
+            Point p2 = p1;
+
+            p2.X = 50;
+
+            Console.WriteLine(p1.X);
+            Console.WriteLine(p2.X);
         }
+    }
+    struct Point
+    {
+        public int X;
+        public int Y;
     }
 }
