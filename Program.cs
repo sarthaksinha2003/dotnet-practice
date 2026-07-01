@@ -128,8 +128,15 @@ namespace MyFirstProject{
             //needOFEnum check = new needOFEnum();
             //check.meth();
 
-            payment pay = new payment();
-            pay.meth();
+            //payment pay = new payment();
+            //pay.meth();
+
+            //Exception Handling
+
+            //CheckAge voterId = new CheckAge();
+            //voterId.meth2();
+
+            Custom.meth();
         }
     }
     //struct Point

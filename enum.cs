@@ -72,8 +72,6 @@ namespace MyFirstProject
                     Console.WriteLine("Invalid Payment Method");
                     break;
             }
-
-            Console.WriteLine(PaymentMethod.Cash);
         }
     }
 }
