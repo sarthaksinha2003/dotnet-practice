@@ -47,6 +47,7 @@
     <Compile Include="DataType.cs" />
     <Compile Include="Destructor.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="enum.cs" />
     <Compile Include="HASA.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="ISA.cs" />

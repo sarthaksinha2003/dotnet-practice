@@ -111,22 +111,30 @@ namespace MyFirstProject{
 
             //struct 
 
-            Point p1 = new Point();
+            //Point p1 = new Point();
 
-            p1.X = 10;
-            p1.Y = 20;
+            //p1.X = 10;
+            //p1.Y = 20;
 
-            Point p2 = p1;
+            //Point p2 = p1;
 
-            p2.X = 50;
+            //p2.X = 50;
 
-            Console.WriteLine(p1.X);
-            Console.WriteLine(p2.X);
+            //Console.WriteLine(p1.X);
+            //Console.WriteLine(p2.X);
+
+            //enum
+
+            //needOFEnum check = new needOFEnum();
+            //check.meth();
+
+            payment pay = new payment();
+            pay.meth();
         }
     }
-    struct Point
-    {
-        public int X;
-        public int Y;
-    }
+    //struct Point
+    //{
+    //    public int X;
+    //    public int Y;
+    //}
 }
