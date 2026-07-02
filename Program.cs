@@ -136,7 +136,17 @@ namespace MyFirstProject{
             //CheckAge voterId = new CheckAge();
             //voterId.meth2();
 
-            Custom.meth();
+            //Custom.meth();
+
+            //Entension methods
+
+            //OldClass obj = new OldClass();
+            //obj.Test3();
+
+            //collections
+
+            ArrayListNonGeneric obj = new ArrayListNonGeneric();
+            obj.display();
         }
     }
     //struct Point

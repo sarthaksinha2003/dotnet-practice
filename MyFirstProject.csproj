@@ -44,11 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstraction.cs" />
+    <Compile Include="ArrayListNonGeneric.cs" />
     <Compile Include="DataType.cs" />
     <Compile Include="Destructor.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="enum.cs" />
     <Compile Include="Exception_Handling.cs" />
+    <Compile Include="ExtensionClass.cs" />
     <Compile Include="HASA.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="ISA.cs" />
